@@ -1,0 +1,44 @@
+p.word {
+  text-align: left;
+  margin-bottom: 20px;
+  display: list-item;
+  margin-left: 1em;
+}
+.actions {
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+.noHover {
+  pointer-events: none;
+}
+
+.actions button:hover {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+button.chosenAnswer {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+p.correctAnswer {
+  font-size: 0.7rem;
+  color: rgb(16, 243, 16);
+}
+p.wrongAnswer {
+  font-size: 0.7rem;
+  color: red;
+}
